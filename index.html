@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Portfolio | Tanvi Sharma</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background: linear-gradient(120deg,#cfd9df,#e2ebf0);
+    color:#333;
+}
+
+/* NAVBAR */
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+    padding:15px 0;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+nav a{
+    text-decoration:none;
+    margin:0 15px;
+    color:#2c3e50;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#6a11cb;
+}
+
+/* COVER */
+#cover{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.cover-box{
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(15px);
+    padding:70px;
+    border-radius:30px;
+    box-shadow:0 25px 50px rgba(0,0,0,0.2);
+}
+
+.cover-box h1{
+    font-size:48px;
+    font-weight:700;
+    color:#2c3e50;
+}
+
+.cover-box h2{
+    margin-top:10px;
+    font-weight:500;
+}
+
+.cover-box p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* SECTIONS */
+section{
+    max-width:1100px;
+    margin:90px auto;
+    padding:60px;
+    background:#ffffff;
+    border-radius:30px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+section h2{
+    font-size:34px;
+    color:#6a11cb;
+    margin-bottom:25px;
+}
+
+/* LIST */
+ul{
+    padding-left:25px;
+}
+
+li{
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+/* CARDS */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    padding:25px;
+    background: linear-gradient(135deg,#fdfbfb,#ebedee);
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* DETAILS */
+.details p{
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+/* FOOTER */
+footer{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:16px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- COVER PAGE -->
+<section id="cover">
+    <div class="cover-box">
+        <h1>Student Portfolio</h1>
+        <h2>Tanvi Sharma</h2>
+        <p>Class 10 • Academic Year 2025–2026</p>
+        <p>Jai Narayan Vidhya Mandir</p>
+    </div>
+</section>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#intro">Introduction</a>
+    <a href="#academics">Academics</a>
+    <a href="#activities">Activities</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#goals">Goals</a>
+    <a href="#experience">Experience</a>
+    <a href="#details">Details</a>
+    <a href="#conclusion">Conclusion</a>
+</nav>
+
+<!-- INTRODUCTION -->
+<section id="intro">
+    <h2>Introduction</h2>
+    <p>
+        My name is <b>Tanvi Sharma</b>. I am a hardworking, disciplined, and curious
+        student of Class 10. I enjoy learning new concepts and always try to improve
+        myself. I believe in honesty, dedication, and continuous self-growth.
+    </p>
+</section>
+
+<!-- ACADEMICS -->
+<section id="academics">
+    <h2>Academic Achievements</h2>
+    <div class="cards">
+        <div class="card">Secured good marks in school examinations</div>
+        <div class="card">Active participation in classroom activities</div>
+        <div class="card">Creative subject-wise project completion</div>
+        <div class="card">Improved performance in Physics</div>
+        <div class="card">Appreciation from teachers for discipline</div>
+    </div>
+</section>
+
+<!-- ACTIVITIES -->
+<section id="activities">
+    <h2>Co-curricular Activities</h2>
+    <div class="cards">
+        <div class="card">Participation in sports</div>
+        <div class="card">School cultural programs</div>
+        <div class="card">Drawing & creative art</div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="cards">
+        <div class="card">Communication Skills</div>
+        <div class="card">Creative Thinking</div>
+        <div class="card">Teamwork</div>
+        <div class="card">Problem Solving</div>
+        <div class="card">Computer Basics</div>
+        <div class="card">Time Management</div>
+    </div>
+</section>
+
+<!-- HOBBIES -->
+<section id="hobbies">
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Listening to music</li>
+        <li>Gardening</li>
+        <li>Spending fun time with family</li>
+    </ul>
+</section>
+
+<!-- GOALS -->
+<section id="goals">
+    <h2>Goals</h2>
+    <h3>Short-Term Goals</h3>
+    <ul>
+        <li>Score good marks in Class 10 board exams</li>
+        <li>Improve confidence</li>
+        <li>Complete assignments on time</li>
+    </ul>
+
+    <h3>Long-Term Goals</h3>
+    <ul>
+        <li>Become a Chartered Accountant (CA)</li>
+        <li>Develop strong academic skills</li>
+        <li>Become a responsible and successful individual</li>
+    </ul>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+    <h2>Experience & Learning</h2>
+    <p>
+        During Class 10, I learned the importance of hard work, discipline, and time
+        management. I improved my understanding in subjects like Physics and Hindi
+        and gained confidence to face challenges positively.
+    </p>
+</section>
+
+<!-- DETAILS -->
+<section id="details" class="details">
+    <h2>Student Details</h2>
+    <p><b>Name:</b> Tanvi Sharma</p>
+    <p><b>Class:</b> 10</p>
+    <p><b>Section:</b> C</p>
+    <p><b>Roll No:</b> 10332</p>
+    <p><b>School:</b> Jai Narayan Vidhya Mandir</p>
+    <p><b>Academic Year:</b> 2025–2026</p>
+    <br>
+    <p><b>Submitted To:</b> Vinay Katiyar</p>
+    <p><b>Submitted By:</b> Tanvi Sharma</p>
+</section>
+
+<!-- CONCLUSION -->
+<section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>
+        This portfolio reflects my academic journey, skills, and personal growth
+        during Class 10. It represents my dedication, discipline, and efforts to
+        become a better learner and individual. I will continue to work hard and
+        achieve my goals in the future.
+    </p>
+</section>
+
+<footer>
+    © 2025 | Portfolio of Tanvi Sharma
+</footer>
+
+</body>
+</html>
